@@ -1,0 +1,74 @@
+body{
+    font-family: 'Arial', sans-serif, 'Helvetica';
+    background-color: rgb(252, 238, 252);
+    background-repeat: no-repeat; /*prevents image repeat*/
+    background-size: cover; /*scale image to cover the entire element (body)*/
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(229, 171, 213);
+    border-radius: 25px;
+    padding: 50px;
+    border: 2px solid black;
+
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Styling Lists */
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+/* Links */
+#google {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Image Styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5px;
+    margin-top: 2px;
+    background-color: rgb(194, 156, 156);
+}
+
+.styled-image {
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 1px;
+
+}
+
+/* Footer */
+.home-footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 1px;
+}
